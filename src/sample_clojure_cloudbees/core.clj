@@ -1,5 +1,5 @@
 (ns sample-clojure-cloudbees.core
-  (:use compojure.core, ring.adapter.jetty)
+  (:use compojure.core)
   (:require [compojure.route :as route]))
 
 (defroutes main-routes
