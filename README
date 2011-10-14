@@ -1,0 +1,24 @@
+# sample-clojure-cloudbees
+
+A good starting point for lein powered clojure apps - for deployment to cloudbees.
+
+The cloudbees plugin (http://clojars.org/lein-cloudbees can help with deployment)
+
+## Usage
+	lein deps (the first time !)
+	lein ring server
+
+This will start the app - and open a browser. Hack away. 
+Then go to cloudbees.com and get your credentials - punch them in. 
+
+When finished: 
+	
+	lein cloudbees deploy
+
+Be happy.
+
+## License
+
+Copyright (C) 2011 Michael Neale
+
+Whatever.
