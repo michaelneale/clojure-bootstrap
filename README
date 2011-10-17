@@ -15,8 +15,11 @@ Then go to grandcentral.cloudbees.com and get your credentials - punch them in (
 When finished: 
 	
 	lein cloudbees deploy
+	lein cloudbees list-apps
+	lein cloudbees
 
 Be happy.
+
 
 ## License
 
