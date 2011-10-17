@@ -2,5 +2,5 @@
   (:use [sample-clojure-cloudbees.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest replace-me 
+  (is false "You might want to write some tests for your application, I would. Maybe."))
