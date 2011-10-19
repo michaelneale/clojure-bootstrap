@@ -18,7 +18,7 @@
                      [lein-cloudbees "1.0.0-SNAPSHOT"]]
 
   ;; the main entry point for our app
-  :ring {:handler sample-clojure-cloudbees.core/main-routes}
+  :ring {:handler sample-clojure-cloudbees.core/app}
 
 
 )
