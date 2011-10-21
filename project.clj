@@ -15,7 +15,7 @@
 
   ;; so we can do "lein ring server" (and used by deployment plugin)				
   :dev-dependencies [[lein-ring "0.4.6"]
-                     [lein-cloudbees "1.0.0-SNAPSHOT"]]
+                     [lein-cloudbees "1.0.0"]]
 
   ;; the main entry point for our app
   :ring {:handler sample-clojure-cloudbees.core/app}
