@@ -1,6 +1,6 @@
-# sample-clojure-cloudbees 
+# sample-clojure-cloudbees
 
-A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. 
+A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. You can also use the clickstart now.
 
 If you don't have one - signup at https://grandcentral.cloudbees.com/account/signup (you can run apps for free on the PaaS - no api restrictions)
 The cloudbees plugin (http://clojars.org/lein-cloudbees) is shown here for deployment (no runtime dependency, of course).
