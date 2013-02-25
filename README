@@ -1,4 +1,4 @@
-# sample-clojure-cloudbees
+# sample-clojure-cloudbees 
 
 A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. You can also use the clickstart now.
 
