@@ -9,10 +9,10 @@ If you don't have one - signup at https://grandcentral.cloudbees.com/account/sig
 
 ## Usage
 
-	lein deps (the first time !)
-	lein ring server
+	lein do clean, deps, ring server	
 
-This will start the app - and open a browser. Hack away, press refresh. 
+This will start the app - and open a browser. Hack away, press refresh, no need to restart unless you udpate dependencies etc.
+('do' means do a list of things in lein terms)
 
 To deploy to cloudbees:
 
