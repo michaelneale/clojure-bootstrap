@@ -7,6 +7,7 @@
 
 (defroutes main-routes    
   (GET "/" [] "<h1>Hello World</h1>")
+  (GET "/head" [] {:headers {"Access-Control-Allow-Origin" "foo.com"} :body "<h1>Hello World</h1>"})
   (GET "/another-page" [] "This is another page")  
   (route/resources "/")
   (route/not-found "<h1>Page not found</h1>"))

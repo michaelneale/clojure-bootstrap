@@ -1,26 +1,34 @@
 # sample-clojure-cloudbees
 
-A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. You can also use the clickstart now.
+A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. 
 
-If you don't have one - signup at https://grandcentral.cloudbees.com/account/signup (you can run apps for free on the PaaS - no api restrictions)
-The cloudbees plugin (http://clojars.org/lein-cloudbees) is shown here for deployment (no runtime dependency, of course).
+You can also use https://github.com/CloudBees-community/clojure-clickstart for one that uses Jenkins to build/test.
+
+
+If you don't have one - signup at https://grandcentral.cloudbees.com/account/signup).
 
 ## Usage
 
 	lein deps (the first time !)
 	lein ring server
 
-This will start the app - and open a browser. Hack away. 
-Then go to https://grandcentral.cloudbees.com/user/keys and get your credentials - punch them in (see project.clj). 
-You don't need to install anything else (deps will pull down the cloudbees plugin - you can of course install it yourself if you want).
+This will start the app - and open a browser. Hack away, press refresh. 
 
-When finished: 
+To deploy to cloudbees:
+
+1) Open project.clj - give your project a cloudbees-app-id 
+2) Then go to https://grandcentral.cloudbees.com/user/keys and get your credentials - punch them in (see project.clj). 
+
+From then on: 
 	
 	lein cloudbees deploy
 	lein cloudbees list-apps
 	lein cloudbees
 
 Be happy.
+
+
+The cloudbees plugin (http://clojars.org/lein-cloudbees) is used here for deployment (no runtime dependency, of course).
 
 
 ## License
