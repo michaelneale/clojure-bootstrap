@@ -5,7 +5,7 @@ A good starting point for lein and ring powered clojure apps - for deployment to
 You can also use https://github.com/CloudBees-community/clojure-clickstart for one that uses Jenkins to build/test.
 
 
-If you don't have one - signup at https://grandcentral.cloudbees.com/account/signup).
+If you don't have a CloudBees account - get one one - signup at https://grandcentral.cloudbees.com/account/signup.
 
 ## Usage
 
