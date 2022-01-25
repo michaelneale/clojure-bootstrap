@@ -1,5 +1,7 @@
 # sample-clojure-cloudbees
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/58d09a31-ebda-4345-9420-df8e1a701748.svg?orgId=451115019187)](https://app.soluble.cloud/repos/details/github.com/michaelneale/clojure-bootstrap?orgId=451115019187)  
+
 A good starting point for lein and ring powered clojure apps - for deployment to cloudbees. 
 
 You can also use https://github.com/CloudBees-community/clojure-clickstart for one that uses Jenkins to build/test.
